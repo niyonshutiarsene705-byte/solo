@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Calculator</title>
+  <style>
+    /* Page background and centering */
+    body {
+      background-color: #f2f6ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Main calculator box */
+    .box {
+      background-color: white;
+      width: 320px;
+      margin: 80px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 8px lightgray;
+    }
+
+    /* Title */
+    h2 {
+      color: #007bff;
+    }
+
+    /* Input boxes */
+    input {
+      width: 90%;
+      padding: 8px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Button */
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 95%;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Results area */
+    .results {
+      background-color: #eaf1ff;
+      text-align: left;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .results p {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>Number Calculator</h2>
+
+    <input type="text" placeholder="Enter first number"><br>
+    <input type="text" placeholder="Enter second number"><br>
+    <button>Calculate</button>
+
+    <div class="results">
+      <h3>Results</h3>
+      <p>Number 1: 12</p>
+      <p>Number 2: 34</p>
+      <p>Sum: 46</p>
+      <p>Average: 23</p>
+      <p>Modulus: 12</p>
+    </div>
+  </div>
+
+</body>
+</html>
